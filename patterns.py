@@ -1,5 +1,5 @@
 # buy a number 
-# n = int(input("Enter the rows: "))
+n = int(input("Enter the rows: "))
 #-----------------------------1--------------------------------------
 """
 *
@@ -43,4 +43,19 @@ for i in range(n):
     for j in range(n):
         print("*",end="")
     print()
+"""
+#-----------------------------4--------------------------------------
+"""
+        * 
+      * * 
+    * * * 
+  * * * * 
+* * * * *
+
+for i in range(n):
+    for j in range(n-i-1):
+        print(" ",end="")
+    for j in range(i+1):
+        print("*",end="")
+    print("")
 """
