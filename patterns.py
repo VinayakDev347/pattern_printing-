@@ -262,5 +262,22 @@ n = 5
 for i in range(1, n+1):
     for j in range(1, i+1):
         print(j, end=" ")
-    print("")"
+    print("")
+    
+"""
+#-----------------------------15--------------------------------------
+"""
+1 1 1 1 1 
+2 2 2 2 
+3 3 3 
+4 4 
+5 
+
+n = 5
+m = 0
+for i in range(n, 0, -1):
+    m += 1
+    for j in range(0, i):
+        print(m, end=" ")
+    print("")
 """
