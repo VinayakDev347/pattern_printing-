@@ -313,3 +313,18 @@ for i in range(1, n+1):
     print("")
 """
 #-----------------------------19--------------------------------------
+"""
+5 4 3 2 1 
+4 3 2 1 
+3 2 1 
+2 1 
+1
+
+n = 5
+for i in range(n, 0, -1):
+    curr_num = i
+    for j in range(0, i):
+        print(curr_num, end=" ")
+        curr_num -= 1
+    print("")"
+"""
