@@ -460,3 +460,27 @@ for i in range(0, row):
         print(c, end=' ')
     print('\n')
 """
+#-----------------------------26--------------------------------------
+"""
+*********
+ *     *
+  *   *
+   * *
+    *
+
+
+for i in range(5):  # i = 0 to 4
+    # Print spaces first
+    print(" " * i, end="")
+
+    # First row (all stars)
+    if i == 0:
+        print("*" * (2 * 5 - 1))
+    # Last row (single star)
+    elif i == 5 - 1:
+        print("*")
+    else:
+        # Middle rows: star + spaces + star
+        inside_spaces = 2 * (5 - i) - 3
+        print("*" + " " * inside_spaces + "*")
+"""
